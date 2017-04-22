@@ -1,0 +1,104 @@
+/*-------------------------------------------------
+GLOBALS CLASSES 
+-------------------------------------------------*/
+*{padding:0; margin:0;}
+body{font-family: 'Maiandra GD'; font-size:13px; color:#8B4513; background:url(../images/b0277448c81a14348dd88165a5f10720.jpg);}
+img{border:none;}
+h1{ font-size:30px; color:#8B4513; font-family: 'Calibri'; font-weight:normal; text-transform:uppercase;}
+h2{ font-size:25px; color:#1f7872; font-family: 'Calibri'; font-weight:normal;}
+P{ line-height:20px;}
+a{text-decoration:none; color:#1f7872;}
+a:hover{color:#8B4513;}
+/*-------------------------------------------------
+GENERAL CLASSES
+-------------------------------------------------*/
+.mar-top30{margin-top:30px;}
+.mar-top20{margin-top:20px;}
+.mar-right30{margin-right:30px;}
+.mar-bottom20{margin-bottom:20px;}
+.float-left{ float:left;}
+.float-right{ float:right;}
+.clearing { clear:both;}
+.panel{ background:#FFDAB9;}
+.title{}
+.content{}
+.page{ width:1040px; margin:0 auto;overflow:hidden;}
+/*-------------------------------------------------
+MENU CLASSES
+-------------------------------------------------*/
+.menu-wrap{ overflow:hidden; background:url(../images/dreamcatcher-08.jpg);}
+.menu{margin:0 auto; width:1040px; background:#000000; height:70px; margin-top:160px;}
+.menu ul li{list-style:none; float:left; width:auto;}
+.menu ul li a{ display:block; height:70px; line-height:85px; padding-left:12px; padding-right:12px; font-size:15px; font-family: 'Calibri'; color:#ffffff; border-right:#d00606 solid 0px; text-transform:uppercase;}
+.menu ul li a:hover{background:#8B4513; color:#FFFFFF;}
+.menu ul li a.active{background:#8B4513; color:#FFFFFF;}
+
+/*-------------------------------------------------
+HEADER CLASSES
+-------------------------------------------------*/
+.header{margin:0 auto; width:1040px; height:120px; background:#ffffff;}
+.logo{width:500px; float:left; margin-left:60px; line-height:120px;}
+.logo h1{ font-size:40px; color:#8B4513; font-weight:normal;}
+.logo h1 span{ color:#000000;}
+
+/*-------------------------------------------------
+BANNER CLASSES
+-------------------------------------------------*/
+.banner{width:1040px; height:340px; margin:0 auto; margin-bottom:60px; background:url(../images/dreamcatcher-08.jpg) no-repeat; position:relative;}
+.banner h1{ padding:10px; float:right; background:#8B4513; text-transform:uppercase; color:#ffffff;  font-size:30px; font-weight:normal; font-family: 'Calibri'; position:absolute; top:130px; right:0;}
+.banner h2{ padding:10px; float:right; background:#ffffff; text-transform:uppercase; color:#1a202c;  font-size:22px; font-weight:normal; font-family: 'Calibri'; position:absolute; top:195px; right:0;}
+/*-------------------------------------------------
+MAIN COLUMAS CLASSES
+-------------------------------------------------*/
+.primary-col{ width:1040px; overflow:hidden; float:center;}
+.primary-col p{ padding-bottom:20px;}
+.generic{ float:center; overflow:hidden; width:100%;}
+.generic .panel{ padding:30px 30px 30px 30px;}
+.generic .title h1{ padding-bottom:20px;}
+.generic .content{overflow:hidden;}
+.generic .content h2{ padding-bottom:15px;}
+.block{width:310px;}
+.block .panel{padding:50px 30px 30px 30px;}
+.block .title h1{ padding-bottom:20px;}
+.block .content img{ padding-bottom:20px;}
+.block .content h2{ padding-bottom:10px;}
+.block .content p{ padding-bottom:20px;}
+
+/*-------------------------------------------------
+CONTACT FORM CLASSS
+-------------------------------------------------*/
+
+.contact-form { background:#f4f8f6; padding:30px; width:440px; float:left;}
+.contact-form label {display: block; padding:10px 0 10px 0;}
+.contact-form label span {display: block; color:#939191;font-size:14px; float:left; width:80px; text-align:left; padding:5px 20px 0 0;}
+.contact-form .input_text {padding:10px 10px;width:318px;background:#ffffff;border:#e1ece7 1px solid; color:#939191;}
+.contact-form .message{padding:10px 10px;width:318px; background:#ffffff; border:#e1ece7 1px solid;overflow:hidden;height:150px; color:#939191; font-size:14px;}
+.contact-form .button{padding:8px;background:#1f7872; color:#ffffff; text-transform:uppercase; font-family:'BrodyD'; border:0px solid;margin-left:100px;margin-top:20px;}
+
+.address { float:left; width:370px; margin-left:30px;}
+.address .panel { border:none; color:#9b9e9a}
+.address .panel .title h1 {  color:#d13f31; padding-bottom:10px;}
+.address .panel .content p span { color:#9b9e9a;}
+
+
+/*-------------------------------------------------
+FOOTER CLASSES
+-------------------------------------------------*/
+.primary-footer{ overflow:hidden; margin:0 auto;}
+.footer-wrap{ background:#000000; overflow:hidden; padding-top:50px; margin-top:50px; padding-bottom:50px;}
+.footer{width:960px; margin:0 auto;}
+.footer .panel{float:left; background:none; width:300px;}
+.footer .panel .title h1{ color:#ffffff;}
+.footer .panel .content{padding-top:25px;}
+.footer .panel .content p{ color:#ffffff;}
+.footer .panel .content .button a{ margin-top:30px; background:#d13f31; width:70px; height:30px;}
+.footer .panel .content .button a:hover{ margin-top:30px; background:#1f7872;}
+.footer .panel .content ul li{ list-style:url(../images/arrow.png) inside; border-bottom:#273042 solid 1px; line-height:35px;}
+.footer .panel .content ul li a{text-decoration:none; color:#435059;}
+.footer .panel .content ul li a:hover{color:#d13f31;}
+.footer .panel .content ul li.-no-border-bottom{border-bottom:none;}
+.copyright-wrap{ background:#8B4513; overflow:hidden; padding:40px 0px 40px 0px;}
+.copyright-wrap .panel{width:960px; margin:0 auto; background:none;}
+.copyright-wrap .panel .content p{ color:#ffffff; text-align:center; font-size:12px;}
+.copyright-wrap .panel .content p a{ text-decoration:none; color:#ffffff;}
+.copyright-wrap .panel .content p a:hover{ color:#1f7872;}
